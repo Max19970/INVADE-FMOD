@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a7cf0bde-dcf1-45d1-abb7-33f2dc962598}">
+		<property name="name">
+			<value>Muffle</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d0ebe28c-1bff-4b97-95e7-3305d7df4806}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a4e2831a-ce4b-42f9-86d5-aa85f262e0b6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a4e2831a-ce4b-42f9-86d5-aa85f262e0b6}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{a7282d1d-c8aa-493b-8457-29e177d05c67}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{a7282d1d-c8aa-493b-8457-29e177d05c67}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

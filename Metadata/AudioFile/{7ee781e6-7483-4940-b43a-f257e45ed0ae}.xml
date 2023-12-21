@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7ee781e6-7483-4940-b43a-f257e45ed0ae}">
+		<property name="assetPath">
+			<value>UIButtonHover1.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.5934693877551021</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7f733b3a-ef82-44ee-9703-009759f9cc48}</destination>
+		</relationship>
+	</object>
+</objects>
